@@ -1,0 +1,91 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Postim
+  category: Kategori
+  tag: Etiketë
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Shtëpia
+  categories: Kategoritë
+  tags: Etiketat
+  archives: Arkivat
+  about: Rreth Nesh
+
+# the text displayed in the search bar & search results
+search:
+  hint: kërko
+  cancel: Anulo
+  no_results: Oops! Asnjë rezultat i gjetur.
+
+panel:
+  lastmod: Së fundmi të përditësuara
+  trending_tags: Etiketat në trend
+  toc: Përmbajtja
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Ky postim është licencuar nën :LICENSE_NAME nga autori.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Disa të drejta të rezervuara.
+  verbose: >-
+    Përveç aty ku shënohet ndryshe, postimet në këtë faqe janë të licencuara 
+    nën Licencën Creative Commons Attribution 4.0 International (CC BY 4.0) nga autori.
+
+meta: Duke përdorur temën :THEME për :PLATFORM.
+
+not_found:
+  statement: Na vjen keq, kemi humbur atë URL ose ajo po tregon diçka që nuk ekziston.
+
+notification:
+  update_found: Një version i ri i përmbajtjes është i disponueshëm.
+  update: Përditëso
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Nga
+  posted: Postuar
+  updated: Përditësuar
+  words: fjalë
+  pageview_measure: shikime
+  read_time:
+    unit: min
+    prompt: lexim
+  relate_posts: Lexim i Mëtejshëm
+  share: Ndaj
+  button:
+    next: Më i Ri
+    previous: Më i Vjetër
+    copy_code:
+      succeed: Kopjuar!
+    share_link:
+      title: Kopjo lidhjen
+      succeed: Lidhja u kopjua me sukses!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# categories page
+categories:
+  category_measure:
+    singular: kategori
+    plural: kategori
+  post_measure:
+    singular: postim
+    plural: postime
